@@ -1,0 +1,13 @@
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.consult-content {
+  margin: 3rem 0;
+  text-align: justify;
+}
+
+.consult-content h1 {
+  font-weight: 600;
+  margin: 2rem 0;
+}
