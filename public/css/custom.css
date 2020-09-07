@@ -3,8 +3,13 @@
 }
 
 .consult-content {
-  margin: 3rem 0;
+  margin: 5rem 0;
   text-align: justify;
+}
+
+.upcoming {
+  align-items: center;
+  justify-content: center;
 }
 
 .consult-content h1 {
