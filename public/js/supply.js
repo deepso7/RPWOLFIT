@@ -50,4 +50,4 @@ supplyData.forEach((sup) => {
 
 console.log(supplies);
 
-$(".supply-container").html(supplies);
+// $(".supply-container").html(supplies);

@@ -19,7 +19,7 @@
           Pricing
         </h1>
         <p class="breadcrumbs">
-          <span class="mr-2"><a href="index.html">Home.</a></span>
+          <span class="mr-2"><a href="/">Home.</a></span>
           <span>Pricing</span>
         </p>
       </div>
@@ -43,133 +43,31 @@
         </p>
       </div>
     </div>
-    <div class="row supply-container">
+    <div class="row">
+      <% supplyData.forEach(supply => { %>
       <div class="col-md-4">
         <div
           class="pricing-wrap ftco-animate img"
-          style="background-image: url(images/program-1.jpg)"
+          style="background-image: url(<%= supply.imgURI %>)"
         >
           <div class="title p-4">
-            <h3>Weight Lifting</h3>
-            <span>Behind the word mountains</span>
+            <span class="price"><%= supply.price %></span>
+            <h3><%= supply.product %></h3>
+            <span><%= supply.company %></span>
           </div>
           <div class="text p-4 d-flex align-items-end">
-            <a href="#" class="btn-custom px-4 py-2">Enroll Now</a>
+            <a href="#" class="btn-custom px-4 py-2">Buy</a>
             <div>
-              <span class="price">$240.00</span>
-              <h3><a href="#">Weight Lifting</a></h3>
-              <p>
+              <span class="price"><%= supply.price %></span>
+              <h3><a href="#"><%= supply.name %></a></h3>
+              <!-- <p>
                 Far far away, behind the word mountains, far from the countries.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div
-          class="pricing-wrap ftco-animate active img"
-          style="background-image: url(images/program-2.jpg)"
-        >
-          <div class="title p-4">
-            <h3>Weight Lifting</h3>
-            <span>Behind the word mountains</span>
-          </div>
-          <div class="text p-4 d-flex align-items-end">
-            <a href="#" class="btn-custom px-4 py-2">Enroll Now</a>
-            <div>
-              <span class="price">$240.00</span>
-              <h3><a href="#">Weight Lifting</a></h3>
-              <p>
-                Far far away, behind the word mountains, far from the countries.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div
-          class="pricing-wrap ftco-animate img"
-          style="background-image: url(images/program-3.jpg)"
-        >
-          <div class="title p-4">
-            <h3>Weight Lifting</h3>
-            <span>Behind the word mountains</span>
-          </div>
-          <div class="text p-4 d-flex align-items-end">
-            <a href="#" class="btn-custom px-4 py-2">Enroll Now</a>
-            <div>
-              <span class="price">$240.00</span>
-              <h3><a href="#">Weight Lifting</a></h3>
-              <p>
-                Far far away, behind the word mountains, far from the countries.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div
-          class="pricing-wrap img"
-          style="background-image: url(images/program-4.jpg)"
-        >
-          <div class="title p-4">
-            <h3>Weight Lifting</h3>
-            <span>Behind the word mountains</span>
-          </div>
-          <div class="text p-4 d-flex align-items-end">
-            <a href="#" class="btn-custom px-4 py-2">Enroll Now</a>
-            <div>
-              <span class="price">$240.00</span>
-              <h3><a href="#">Weight Lifting</a></h3>
-              <p>
-                Far far away, behind the word mountains, far from the countries.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div
-          class="pricing-wrap ftco-animate img"
-          style="background-image: url(images/program-5.jpg)"
-        >
-          <div class="title p-4">
-            <h3>Weight Lifting</h3>
-            <span>Behind the word mountains</span>
-          </div>
-          <div class="text p-4 d-flex align-items-end">
-            <a href="#" class="btn-custom px-4 py-2">Enroll Now</a>
-            <div>
-              <span class="price">$240.00</span>
-              <h3><a href="#">Weight Lifting</a></h3>
-              <p>
-                Far far away, behind the word mountains, far from the countries.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div
-          class="pricing-wrap ftco-animate img"
-          style="background-image: url(images/program-6.jpg)"
-        >
-          <div class="title p-4">
-            <h3>Weight Lifting</h3>
-            <span>Behind the word mountains</span>
-          </div>
-          <div class="text p-4 d-flex align-items-end">
-            <a href="#" class="btn-custom px-4 py-2">Enroll Now</a>
-            <div>
-              <span class="price">$240.00</span>
-              <h3><a href="#">Weight Lifting</a></h3>
-              <p>
-                Far far away, behind the word mountains, far from the countries.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <% }) %>
     </div>
   </div>
 </section>

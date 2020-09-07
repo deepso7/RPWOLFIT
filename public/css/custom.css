@@ -14,5 +14,9 @@
 
 .consult-content h1 {
   font-weight: 600;
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
+}
+
+.supply {
+  background: white;
 }
