@@ -25,6 +25,9 @@ app.get("/pricing", (req, res) => {
 app.get("/blog", (req, res) => {
   res.render("blog", { title: "Blog" });
 });
+app.get("/shop", (req, res) => {
+  res.render("shop", { title: "Shop" });
+});
 
 app.get("/blog-single", (req, res) => {
   res.render("blog-single", { title: "Blog-Single" });
