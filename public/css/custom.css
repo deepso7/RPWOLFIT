@@ -57,6 +57,10 @@
   padding: 0.55rem;
 }
 
+.navbar {
+  background: linear-gradient(black, transparent) !important;
+}
+
 .fa-twitter {
   background: #1da1f2;
   padding: 0.55rem;

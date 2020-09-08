@@ -141,9 +141,9 @@ app.get("/courses", (req, res) => {
   res.render("courses", { title: "Courses" });
 });
 
-app.get("/form", (req, res) => {
-  res.render("trainer", { title: "Form" });
-});
+// app.get("/form", (req, res) => {
+//   res.render("trainer", { title: "Form" });
+// });
 
 const PORT = process.env.PORT || 3000;
 
