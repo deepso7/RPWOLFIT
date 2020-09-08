@@ -73,3 +73,9 @@
 #WAButton {
   z-index: 100;
 }
+
+@media screen and (max-size: 800px) {
+  .banner-heading {
+    font-size: 1rem !important;
+  }
+}
