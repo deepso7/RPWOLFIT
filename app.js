@@ -137,8 +137,8 @@ app.get("/blog-single", (req, res) => {
   res.render("blog-single", { title: "Covid Blog" });
 });
 
-app.get("/classes", (req, res) => {
-  res.render("classes", { title: "Classes" });
+app.get("/courses", (req, res) => {
+  res.render("courses", { title: "Courses" });
 });
 
 app.get("/form", (req, res) => {
