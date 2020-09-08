@@ -129,8 +129,12 @@ app.get("/shop", (req, res) => {
   res.render("shop", { title: "Shop", supplyData: supplyData });
 });
 
+app.get("/privacy", (req, res) => {
+  res.render("privacy", { title: "Privacy Policy" });
+});
+
 app.get("/blog-single", (req, res) => {
-  res.render("blog-single", { title: "Blog-Single" });
+  res.render("blog-single", { title: "Covid Blog" });
 });
 
 app.get("/classes", (req, res) => {

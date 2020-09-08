@@ -28,8 +28,11 @@
 </section>
 
 <section class="ftco-section">
+  <div id="WAButton"></div>
+
   <div class="container">
     <div class="row justify-content-center mb-5">
+      <!--Div where the WhatsApp will be rendered-->
       <div class="col-md-10 heading-section text-center ftco-animate">
         <span class="subheading">
           <i class="db-left"></i>
@@ -51,7 +54,7 @@
           style="background-image: url(<%= supply.imgURI %>)"
         >
           <div class="title p-4">
-            <span class="price"><%= supply.price %></span>
+            <span class="price text-white text-bold"><%= supply.price %></span>
             <h3><%= supply.product %></h3>
             <span><%= supply.company %></span>
           </div>
