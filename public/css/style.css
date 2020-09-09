@@ -9562,7 +9562,7 @@ h5,
   }
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-  font-size: 18px;
+  font-size: 13px;
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
   padding-left: 0;
@@ -9774,7 +9774,7 @@ h5,
   text-transform: uppercase;
   display: block;
   font-weight: 900;
-  background: linear-gradient(45deg, #000000, white);
+  background: url(../images/logo-bg.jpg) no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: cover;
@@ -9786,11 +9786,6 @@ h5,
   width: 100%;
   position: relative;
   z-index: 0;
-}
-@media (max-width: 1000px) {
-  .hero-wrap {
-    background-image: url(../images/gallery-4.jpg);
-  }
 }
 .hero-wrap .overlay {
   position: absolute;
@@ -9868,9 +9863,9 @@ h5,
   color: #ff0000;
 }
 .hero-wrap .slider-text h1 {
-  font-size: 200px;
+  font-size: 300px;
   color: #fff;
-  font-weight: 800;
+  font-weight: 900;
   text-transform: uppercase;
   line-height: 0.8;
   overflow: hidden;
@@ -9884,12 +9879,12 @@ h5,
 }
 @media (max-width: 991.98px) {
   .hero-wrap .slider-text h1 {
-    font-size: 150px;
+    font-size: 180px;
   }
 }
 @media (max-width: 767.98px) {
   .hero-wrap .slider-text h1 {
-    font-size: 3rem;
+    font-size: 100px;
   }
 }
 @media (max-width: 1199.98px) {
