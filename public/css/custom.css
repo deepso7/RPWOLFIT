@@ -1,3 +1,29 @@
+.preload-logo {
+  height: 300px;
+  /* box-shadow: 1px 1px 10px 1px rgb(11, 235, 30); */
+  filter: drop-shadow(0px 0px 30px rgb(11, 235, 30));
+  animation: 2s infinite pop;
+}
+
+.preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0px 0px 50px rgb(11, 235, 30));
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .navbar-brand {
   font-size: 2rem;
 }
@@ -94,7 +120,7 @@ li {
 }
 
 .main-banner {
-  background: url("../images/heroicWall2.jpeg") !important;
+  background: url("../images/vbg.jpg") !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center;
@@ -113,7 +139,7 @@ li {
     margin-left: 1rem;
   }
   .main-banner {
-    background: url("../images/mob-bg.jpeg") !important;
+    background: url("../images/mob-bg.jpg") !important;
   }
 }
 
