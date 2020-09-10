@@ -9775,6 +9775,7 @@ h5,
   display: block;
   font-weight: 900;
   background: url(../images/logo-bg.jpg) no-repeat;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: cover;
@@ -9871,6 +9872,7 @@ h5,
   overflow: hidden;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   background-size: cover;
@@ -10293,6 +10295,7 @@ h5,
   background: -ms-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
   background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0055', endColorstr='#ff6600', GradientType=1 );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -10456,6 +10459,7 @@ h5,
   background: -ms-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
   background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0055', endColorstr='#ff6600', GradientType=1 );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -10836,6 +10840,7 @@ h5,
   background: -ms-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
   background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0055', endColorstr='#ff6600', GradientType=1 );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11063,6 +11068,7 @@ textarea.form-control {
   background: -ms-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
   background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0055', endColorstr='#ff6600', GradientType=1 );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
@@ -11320,6 +11326,7 @@ textarea.form-control {
   background: -ms-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
   background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0055', endColorstr='#ff6600', GradientType=1 );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11412,6 +11419,7 @@ textarea.form-control {
   background: -ms-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
   background: linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0055', endColorstr='#ff6600', GradientType=1 );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
