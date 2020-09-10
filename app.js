@@ -108,7 +108,7 @@ const supplyData = [
     imgURI: "images/products/supply/prod13.jpeg",
     product: "Dumbell Set",
     name: "Hex Dumbell Set",
-    price: "₹4999.00",
+    price: "₹199.00 Per Kg",
     company: "RPWOLFIT",
   },
   {
@@ -116,15 +116,15 @@ const supplyData = [
     imgURI: "images/products/supply/prod14.jpeg",
     product: "Kettlebells",
     name: "Kettlebells",
-    price: "Contact Us",
+    price: "₹199.00 Per Kg",
     company: "RPWOLFIT",
   },
   {
     id: 15,
     imgURI: "images/products/supply/prod15.jpeg",
-    product: "Equipment",
+    product: "Bar",
     name: "Chin Up Bar",
-    price: "Contact Us",
+    price: "₹1799.00",
     company: "RPWOLFIT",
   },
   {
@@ -132,7 +132,7 @@ const supplyData = [
     imgURI: "images/products/supply/prod16.jpeg",
     product: "Equipment",
     name: "Flat Bench",
-    price: "Contact Us",
+    price: "₹9999.oo",
     company: "RPWOLFIT",
   },
   {
@@ -140,7 +140,15 @@ const supplyData = [
     imgURI: "images/products/supply/prod17.jpeg",
     product: "Medicine Balls",
     name: "Medicine Balls",
-    price: "Contact Us",
+    price: "₹499.00 Per Kg",
+    company: "RPWOLFIT",
+  },
+  {
+    id: 18,
+    imgURI: "images/products/supply/prod18.jpg",
+    product: "Home Gym",
+    name: "Home Gym",
+    price: "₹20000.00+",
     company: "RPWOLFIT",
   },
 ];

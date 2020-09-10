@@ -10305,7 +10305,7 @@ h5,
 .pricing-wrap .text .btn-custom {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   background: #ff0055;
   background: -moz-linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
   background: -webkit-gradient(

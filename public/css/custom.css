@@ -26,7 +26,7 @@
 }
 
 .nav-link {
-  font-size: 1.25rem !important;
+  font-size: 1.2rem !important;
 }
 
 .navbar-brand {
@@ -125,7 +125,7 @@ li {
 }
 
 .main-banner {
-  background: url("../images/vbg.jpg") !important;
+  background: url("../images/qwe.jpg") !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center;
@@ -145,6 +145,12 @@ li {
   }
   .main-banner {
     background: url("../images/mob-bg.jpg") !important;
+  }
+  .courses-overlay {
+    background: url("../images/mob-course.jpeg") !important;
+  }
+  .blog-overlay {
+    background: url("../images/ret.jpg") !important;
   }
 }
 
